@@ -1,0 +1,30 @@
+body{
+    background:#fbfbfb;
+    font-family:sans-serif;
+}
+
+header{
+    background: url('../images/pokemon.png') #ef5350 no-repeat center center;
+    background-size:contain;
+    width:100%;
+    height:60px;
+    position:fixed;    
+    top:0;
+    left:0;
+    right:0;
+}
+
+main{
+    width:800px;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.pokemon{
+    background:red;
+    width: 30%;
+    margin: 1.5%;
+}
